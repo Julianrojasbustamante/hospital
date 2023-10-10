@@ -6,10 +6,10 @@ from datetime import datetime
 def conectar_db():
     try:
         conexion = mysql.connector.connect(
-            host='localhost',
-            database='hospital',
-            user='root',
-            password='poligran'
+            host='212.1.209.1',
+            database='u839323493_poli_work',
+            user='u839323493_poli_work',
+            password='0Zhx9vC~'
         )
         if conexion.is_connected():
             print("Conexión a la base de datos exitosa.")
